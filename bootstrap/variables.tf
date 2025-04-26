@@ -20,7 +20,7 @@ variable "region" {
 variable "budget_amount" {
   type        = number
   description = "Budget amount"
-  default     = 100
+  default     = 5
 }
 
 variable "budget_thresholds" {
