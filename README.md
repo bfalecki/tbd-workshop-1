@@ -147,5 +147,9 @@ terraform destroy -no-color -var-file env/project.tfvars
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_project_name"></a> [project\_name](#output\_project\_name) | Project identifier |
+| <a name="output_terraform_service_account"></a> [terraform\_service\_account](#output\_terraform\_service\_account) | Terraform service account |
+| <a name="output_terraform_state_bucket"></a> [terraform\_state\_bucket](#output\_terraform\_state\_bucket) | Terraform state bucket |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
